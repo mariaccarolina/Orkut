@@ -1,9 +1,11 @@
 <script setup>
+import Login from "./pages/Login.vue"
 </script>
 
 <template>
-  <h1>Orkut</h1>
+  <Login/>
 </template>
 
-<style scoped>
+<style  lang="scss">
+@import "./style.scss";
 </style>
