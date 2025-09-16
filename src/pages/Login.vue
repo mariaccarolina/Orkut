@@ -9,7 +9,7 @@
     </nav>
   </header>
   <main>
-    <div>
+    <div class="friends">
       <p>
         Conecta-se aos seus amigos e familiares usando recados e mensagens
         instantâneas
@@ -51,5 +51,11 @@ header {
 main {
   background-color: #d9e6f7;
   height: 90vh;
+
+  .friends{
+    background-image: url("../assets/icons/wallpaper.svg");
+    height: 60vh;
+    
+  }
 }
 </style>
