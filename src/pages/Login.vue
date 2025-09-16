@@ -19,11 +19,11 @@
       <img src="../assets/images/header.png" alt="logo" />
       <input type="text" placeholder="E-mail" />
       <input type="text" placeholder="Senha" />
-      <input type="checkbox" name="" id="">
+      <input type="checkbox" name="" id="" />
       <label for="">Lembrar minha senha</label>
-      <input type="submit" value="Entrar na conta">
-       <input type="button" value="Criar uma conta">
-       <a href="#">Esqueci a minha senha</a>
+      <input type="submit" value="Entrar na conta" />
+      <input type="button" value="Criar uma conta" />
+      <a href="#">Esqueci a minha senha</a>
     </form>
   </main>
 </template>
@@ -52,10 +52,9 @@ main {
   background-color: #d9e6f7;
   height: 90vh;
 
-  .friends{
+  .friends {
     background-image: url("../assets/icons/wallpaper.svg");
     height: 60vh;
-    
   }
 }
 </style>
